@@ -28,7 +28,7 @@
 }
 
 body {
-    background: var(--bg-url) no-repeat top center / cover;
+    background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
@@ -51,12 +51,13 @@ body * {
 
 #profile img {
     width: 112px;
-    margin: auto;
+    margin: 8px;
 }
 
-#profile P {
+#profile p {
     font-size: 500;
     line-height: 24px;
+    text-align: center;
     margin: 8px;
 }
 
@@ -83,7 +84,7 @@ body * {
     transform: translateY(-50%);
 }
 
-.light #switch button P {
+.light #switch button p {
     right: 0;
     left: initial;
 }
