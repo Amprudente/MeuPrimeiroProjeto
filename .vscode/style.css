@@ -12,7 +12,6 @@
     --surface-color-hover: rgba(255, 255, 255, 0.5);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./assets/moon-stars.svg);
-    --swhitch-left: initial;
 }
 
 .light {
@@ -23,8 +22,6 @@
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg);
-    --swhitch-right: 0;
-
 }
 
 body {
