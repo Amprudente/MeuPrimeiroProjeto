@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wht@400;500&display=swap" rel="stylesheet"/>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="DevLinks - Links de desenvolvedores">
     <title>DevLinks</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"/>
+    </head>
     <style>
         p {
             text-align: center;
         }
     </style>
-</head>
 <body>
     <div id="container">
         <div id="profile">
-            <img src="./assets/Avatar.png" alt="imagem na pasta projetos assets Avatar.png"/>
+            <img 
+            src="./assets/Avatar.png" 
+            alt="imagem na pasta projetos assets Avatar.png"/>
+        <p>@anamayra_</p>
+            </div>
         </div>
-            <p>@anaprudente</p>
      <div id="switch" onclick="toggleMode()">
-        <button></button>
+        <button>
+            <img scr="./assets/moonstars.svg"/>
+        </button>
         <span></span>
     </div>
-<ul>
-        <li>
-            <a href="#">Inscrever-se no NLW</a>
-        </li>
-
+    <ul>
         <li>
             <a href="#">Baixar meu E-book</a>
         </li>
 
         <li>
-            <a href="#">Ver meu Portfólio</a>
+            <a href="https://github.com/Amprudente">Ver meu Portfólio</a>
         </li>
 
         <li>
             <a href="#">Conheça o Explorer</a>
-        </li>
-    </ul>
+        </li> 
+        </ul>
+
     <div id="social-links">
-        <ion-icon name="logo-github"> </ion-icon>
-        <ion-icon name="logo-linkedin"> </ion-icon>
-        <ion-icon name="logo-instagram"> </ion-icon>
-        <ion-icon name="logo-whatsapp"> </ion-icon>
+        <a href="https://github.com/Amprudente" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ana-mayra-prudente-0b1b4a1b2/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/anamayra_/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=5527999009236" target="_blank">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
     </div>
+
     <div id="footer">
         <footer> Desenvolvido por <a href="https://app.rocketseat.com.br/">Rocketseat</a></footer>
     </div>
@@ -60,4 +74,4 @@
     </script>
     <script src="./script.js"></script>
 </body>
-</html>
+</html
