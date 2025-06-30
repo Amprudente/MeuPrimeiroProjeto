@@ -3,6 +3,7 @@ function toggleMode() {
   html.classList.toggle('light')
   
   const img = document.querySelector("Avatar.png")
+  html.classList.querySelector('imagem escura')
   
 
   if(html.classList.contains("light")) {
