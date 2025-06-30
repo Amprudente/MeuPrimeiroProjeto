@@ -1,24 +1,26 @@
-<h1 align="center">DevLinks</h1>
+# Devlinks
 
-<p align="center">
+<div align="center">
+
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
-</p>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-meuprimeiroprojeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<div align="center">
+
+[**Tecnologias**](#-tecnologias)   |   [**Projeto**](#-meuprimeiroprojeto)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
+
+</div>
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
+<div align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+</div>
 
 <br>
-
 <p align="center">
-  <img alt="MeuPrimeiroProjeto DevLinks" src=".github/preview.jpg" width="100%">
+
+![MeuPrimeiroProjeto DevLinks](.github/preview.jpg)
+
 </p>
 
 ## 🚀 Tecnologias
