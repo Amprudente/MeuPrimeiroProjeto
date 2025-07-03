@@ -80,11 +80,8 @@ p {
 
 /*switch*/
 #switch {
-    cursor: pointer;
-}
-
-#switch {
     display: flex;
+    cursor: pointer;
     justify-items: center;
     width: 64px;
     
