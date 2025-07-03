@@ -1,15 +1,18 @@
-function toggleMode() {
-  const html = document.documentElement
-  html.classList.toggle('light')
-  
-  const img = document.querySelector("Avatar.png")
-  html.classList.querySelector('imagem escura')
-  
+let isDefault = true;
 
-  if(html.classList.contains("light")) {
-  img.setAttribute('src', "./assets/avatar-light.png")
+function toggleImageAndBackground() {
+  const profileImage = getElementById('profileImage');
+  const body = document.body;
+
+  if (isDefault) {
+    profileImage.src = './assets/avatar2.png';
+    body.style.backgroundColor = '#f0f0f0';
 
   } else {
-  img.setAttribute("src", "./assets/avatar.png")
+    profileImage.src = './assets/avatar.png';
+    body.style.backgroundColor = '#ffffff';
   }
+
+  isDefault = !isDefault;
+
 }

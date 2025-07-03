@@ -38,7 +38,7 @@ body * {
 }
 
 body .light {
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 /*container */
 #container {
@@ -58,6 +58,7 @@ body .light {
     width: 112px;
 }
 
+/* profile text */
 p {
     text-align: center;
 }
