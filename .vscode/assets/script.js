@@ -1,7 +1,8 @@
 let isDefault = true;
 
 function toggleImageAndBackground() {
-  const profileImage = getElementById('profileImage');
+  const profileImage = document.getElementById('profileImage');
+
   const body = document.body;
 
   if (isDefault) {
