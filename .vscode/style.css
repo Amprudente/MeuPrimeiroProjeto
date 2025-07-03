@@ -25,11 +25,22 @@
 }
 
 body {
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+body {
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
     justify-items: center;
     background-size: cover;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.3s, color 0.3s;
 }
 
 body * {
@@ -68,6 +79,10 @@ p {
 }
 
 /*switch*/
+#switch {
+    cursor: pointer;
+}
+
 #switch {
     display: flex;
     justify-items: center;
