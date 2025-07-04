@@ -1,6 +1,6 @@
 let isDefault = true;
 
-function toggleImageAndBackground() {
+function {
   const profileImage = document.getElementById('profileImage');
 
   const body = document.body;
@@ -16,4 +16,21 @@ function toggleImageAndBackground() {
 
   isDefault = !isDefault;
 
+}
+
+let isLightMode = false;
+
+function toggleMode() {
+  const body = document.body;
+  const switchButton = document.getElementById('switch');
+
+  if (isLightMode) {
+    html.classList.remove('light');
+    switchButton.classList.remove('light');
+  } else {
+    html.classList.add('light');
+    switchButton.classList.add('light');
+  }
+
+  isLightMode = !isLightMode;
 }
