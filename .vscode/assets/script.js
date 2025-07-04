@@ -1,8 +1,7 @@
 let isDefault = true;
 
-function {
+function toggleImage() {
   const profileImage = document.getElementById('profileImage');
-
   const body = document.body;
 
   if (isDefault) {
@@ -18,7 +17,7 @@ function {
 
 }
 
-let isLightMode = false;
+let isLightMode = true;
 
 function toggleMode() {
   const body = document.body;
