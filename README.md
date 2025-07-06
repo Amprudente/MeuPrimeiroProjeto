@@ -14,9 +14,9 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <!-- Badge centered visually, but Markdown doesn't support true centering -->
 
-![License](https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000)  
+![License][license]
 
-![MeuPrimeiroProjeto DevLinks](.github/preview.jpg)
+![MeuPrimeiroProjeto DevLinks](.Github/preview.png)
 
 ## 🚀 Tecnologias
 
@@ -42,3 +42,5 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+
+[license]: https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000
