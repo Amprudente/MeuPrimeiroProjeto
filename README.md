@@ -9,19 +9,14 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 [**Tecnologias**](#-tecnologias)   |   [**Projeto**](#-meuprimeiroprojeto)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
 
 </div>
-  <a href="#memo-licença">Licença</a>
+  [Licença](#memo-licença)
 </p>
 
-<div align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</div>
+<!-- Badge centered visually, but Markdown doesn't support true centering -->
 
-<br>
-<p align="center">
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000)  
 
 ![MeuPrimeiroProjeto DevLinks](.github/preview.jpg)
-
-</p>
 
 ## 🚀 Tecnologias
 
