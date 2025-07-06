@@ -1,35 +1,51 @@
-let isDefault = true;
-
-function toggleImage() {
+function toggleLightMode() {
+  const html = document.querySelector('html');
+  const body = document.body;
   const profileImage = document.getElementById('profileImage');
-  const body = document.body;
-
-  if (isDefault) {
-    profileImage.src = './assets/avatar2.png';
-    body.style.backgroundColor = '#f0f0f0';
-
-  } else {
-    profileImage.src = './assets/avatar.png';
-    body.style.backgroundColor = '#ffffff';
-  }
-
-  isDefault = !isDefault;
-
 }
-
-let isLightMode = true;
-
-function toggleMode() {
-  const body = document.body;
-  const switchButton = document.getElementById('switch');
-
-  if (isLightMode) {
+  if (body.classList.contains('light')) {
+    body.classList.remove('light');
+    profileImage.src = './assets/img-avatar.png/avatar1.png';
+  } else {
+    body.classList.add('light');
+    profileImage.src = './assets/img-avatar.png/avatar2.png';
+  }
+  if (html.classList.contains('light')) {
     html.classList.remove('light');
-    switchButton.classList.remove('light');
+
   } else {
     html.classList.add('light');
-    switchButton.classList.add('light');
+  }
+  if (body.classList.contains('light')) {
+    body.classList.add('light');
+    profileImage.src = './assets/img-avatar.png/avatar2.png';
+    bodyButton.classList.add('light');
+}
+  if (html.classList.contains('light')) {
+    html.classList.remove('light');
+
+  } else {
+    html.classList.add('light');
   }
 
-  isLightMode = !isLightMode;
-}
+
+//*function toggleProfileImageAndBackgroundImage() {
+  //*const body = document.body;
+  //*const profileImage = document.getElementById('profileImage');
+
+ //* if (body.classList.contains('light')) {
+    //*bodyButton.classList.remove('light');
+   //* profileImage.src = ('./assets/img.svg/moonstars.svg');
+  //*  body.classList.remove('light');
+
+ //* if (body.classList.contains('light')) {
+  //*  profileImage.src.includes = ('./assets/img-avatar.png/avatar1.png');
+  //*  profileImage.src = ('./assets/img-avatar.png/avatar2.png');
+
+//* } else {
+   //* profileImage.src = ('./assets/img-avatar.png/Avatar1.png');
+
+  //}
+
+ //*   bodyClassLightMode = !bodyClassLightMode;
+  //*

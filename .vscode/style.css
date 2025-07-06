@@ -6,33 +6,22 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg);
+    --bg-url: url(./assets/Mobile/bg-mobile2.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.5);
     --surface-color-hover: rgba(255, 255, 255, 0.2);
     --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moonstars.svg);
+    --switch-bg-url: url(./assets/img.svg/moonstars.svg);
 }
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/bg-mobile2.jpg);
+    --bg-url: url(./assets/Mobile/bg-mobile.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.5);
     --surface-color-hover: rgba(0, 0, 0, 0.2);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg);
-}
-
-body {
-    background-color: #121212;
-    color: white;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.light {
-    background-color: #f0f0f0;
-    color: black;
+    --switch-bg-url: url(./assets/img.svg/sun.svg);
 }
 
 body {
@@ -48,6 +37,10 @@ body * {
     color: var(--text-color);
 }
 
+.light body {
+    background: var(--bg-url) no-repeat top center/cover;
+    color: var(--text-color);
+}
 /*container */
 #container {
     width: 100%;
@@ -66,6 +59,11 @@ body * {
     width: 112px;
 }
 
+#profile img:hover {
+    cursor: pointer;
+    outline: 8px solid var(--highlight-color);
+}
+
 /* profile text */
 p {
     text-align: center;
@@ -81,7 +79,6 @@ p {
 /*switch*/
 #switch {
     display: flex;
-    cursor: pointer;
     justify-items: center;
     width: 64px;
     
@@ -104,7 +101,8 @@ p {
     background-position: center;
     border: 0;
     border-radius: 50%;
-    
+    cursor: pointer;    
+
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -117,7 +115,15 @@ p {
 .light #switch button {
     right: 0;
     left: initial;
-    animation: slide-in 0.2s forwards;
+    background-image: url(./assets/img.svg/sun.svg);
+    animation: slide-in 0.3s forwards;
+}
+
+.dark #switch button {
+    left: 0;
+    right: initial;
+    background-image: url(./assets/img.svg/moonstars.svg);
+    animation: slide-in 0.3s forwards;
 }
 
 #switch button:hover {
@@ -142,7 +148,9 @@ ul {
     align-items: center;
     gap: 16px;
 
+
     padding: 24px 0;
+
 }
 
 ul li a {
@@ -211,13 +219,13 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
     :root {
-        --bg-url: url(./assets/bg-desktop.jpg);
-        --switch-bg-url: url(./assets/moonstars.svg);
+        --bg-url: url(./assets/img-desktop/bg-desktop.jpg);
+        --switch-bg-url: url(./assets/img.svg/moonstars.svg);
         }
 
     .light {
-        --bg-url: url(./assets/bg-desktop2.jpg);
-        --switch-bg-url: url(./assets/sun.svg);
+        --bg-url: url(./assets/img-desktop/bg-desktop2.jpg);
+        --switch-bg-url: url(./assets/img.svg/sun.svg);
       }
 
     /* animation */
