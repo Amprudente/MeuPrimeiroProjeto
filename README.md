@@ -6,7 +6,9 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <div align="center">
 
-[**Tecnologias**](#-tecnologias)   |   [**Projeto**](#-meuprimeiroprojeto)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
+[**Tecnologias**](.css, .Html, .JavaScript)
+
+[**Projeto**](.vscode/assets/index.html)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
 
 </div>
   [Licença](#memo-licença)
