@@ -6,12 +6,12 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <div align="center">
 
-[**Tecnologias**](.css, .Html, .JavaScript)
+[**Tecnologias**]
 
-[**Projeto**](.vscode/assets/)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
+[**Projeto**](.vscode/assets/script.js)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
 
 </div>
-  [**Licença**]
+  [Licença]
 </p>
 
 <!-- Badge centered visually, but Markdown doesn't support true centering -->
