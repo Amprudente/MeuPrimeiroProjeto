@@ -8,10 +8,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 [**Tecnologias**](.css, .Html, .JavaScript)
 
-[**Projeto**](.vscode/assets/index.html)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
+[**Projeto**](.vscode/assets/)   |   [**Layout**](#-layout)   |   [**Licença**](#memo-licença)
 
 </div>
-  [Licença](#memo-licença)
+  [**Licença**]
 </p>
 
 <!-- Badge centered visually, but Markdown doesn't support true centering -->
